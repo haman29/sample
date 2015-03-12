@@ -41,6 +41,6 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'localhost', port: 4000 }
 end
 
-DOORKEEPER_APP_ID =     "1a70f91c9b3983bea617f093b8addc9a4e302b21e771ce98ea7a839a83fa4ceb"
-DOORKEEPER_APP_SECRET = "86440b58bc62eb8bef00d3e5321d1f636b07fd243082b63dc85d3123da80c079"
-DOORKEEPER_APP_URL =    "http://kumapon/"
+PROVIDER_APP_ID =     "1a70f91c9b3983bea617f093b8addc9a4e302b21e771ce98ea7a839a83fa4ceb"
+PROVIDER_APP_SECRET = "86440b58bc62eb8bef00d3e5321d1f636b07fd243082b63dc85d3123da80c079"
+PROVIDER_APP_URL =    "http://kumapon/"

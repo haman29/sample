@@ -256,4 +256,7 @@ Devise.setup do |config|
   # When using omniauth, Devise cannot automatically set Omniauth path,
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
+  #
+  config.omniauth :provider,  PROVIDER_APP_ID, PROVIDER_APP_SECRET, :client_options =>  {:site => PROVIDER_APP_URL}
 end
+require File.expand_path('lib/omniauth/strategies/provider', Rails.root)
